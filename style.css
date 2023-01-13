@@ -48,7 +48,7 @@ a{
    
 }
 .top-p{
-    margin:15px 0px 20px 80px;
+    margin:15px 0px 20px 30px;
 }
 
 .players{
@@ -60,7 +60,7 @@ a{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     row-gap: 30px;
-    place-items: center;   /* important */
+    /* place-items: center;  */
     margin-bottom: 30px;
 
 }
@@ -71,10 +71,46 @@ a{
 .p-info{
     display: flex;
     align-items: center;
-    gap:10px
+    gap:10px;
+    margin-left: 30px;
 }
 .hr-line{
     margin-bottom: 20px;
+}
+/* Blog Part */
+.top-blog{
+    margin:15px 0px 20px 30px;
+}
+.blogs{
+    background-color: #FFFFFF;
+    width:870px;
+}
+.blog{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+    margin-bottom: 30px;
+
+}
+.single-blog{
+    display: flex;
+    gap: 16px;
+    margin-left: 30px;
+}
+.single-blog img{
+    width: 224px;
+    height: 127px;
+}
+.blog-title{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.blog-auhor{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* Media Queries */
@@ -93,11 +129,39 @@ a{
     .players{
         width:90%;
     }
+    .p-info{
+        margin-left: 15px;
+    }
+    .blogs{
+        width: 90%;
+    }
+
+    .blog{  
+        grid-template-columns: repeat(1,1fr);
+        width:90%;
+        margin-bottom: 30px;
+        place-items: center;
+    }
+    .single-blog{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-left: 30px;
+    }
+    .single-blog img{
+        width: 180px;
+        height: 120px;
+    }
+  
 }
+
 @media screen and (min-width:301px)  and (max-width:400px){
     .navigation,.nav-icon,.nav-menu{
         justify-content:space-evenly;
         gap:10px;
+    }
+    .players{
+        width:90%;
     }
     .player{
         grid-template-columns: repeat(2,1fr);
@@ -106,12 +170,25 @@ a{
         margin-bottom:20px;
         width:100%;
     }
-    .players{
+    
+    .blogs{
+        width: 90%;
+    }
+
+    .blog{  
+        grid-template-columns: repeat(1,1fr);
         width:90%;
+        margin-bottom: 30px;
+        place-items: center;
     }
-    .top-p{
-        margin:15px 0px 20px 20px;
+    .single-blog{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-left: 30px;
     }
+    
+
 }
 @media screen and (min-width:401px) and (max-width:520px) {
     .navigation,.nav-icon,.nav-menu{
@@ -128,8 +205,19 @@ a{
     .players{
         width:90%;
     }
-    .top-p{
-        margin:15px 0px 20px 30px;
+    .blogs{
+        width: 90%;
+    }
+    .blog{  
+        grid-template-columns: repeat(1,1fr);
+        width:90%;
+        margin-bottom: 30px;
+    }
+    .single-blog{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-left: 30px;
     }
 }
 @media screen and (min-width:521px) and (max-width:576px) {
@@ -147,8 +235,23 @@ a{
     .players{
         width:90%;
     }
-    .top-p{
-        margin:15px 0px 20px 50px;
+    .blogs{
+        width: 90%;
+    }
+    .top-blog{
+        margin-left:190px;
+    }
+    .blog{  
+        grid-template-columns: repeat(1,1fr);
+        width:90%;
+        margin-bottom: 30px;
+        place-items: center;
+    }
+    .single-blog{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-left: 30px;
     }
 }
 
@@ -164,8 +267,21 @@ a{
         margin-bottom:20px;
         width: 100%;
     }
-    .top-p{
-        margin:15px 0px 20px 35px;
+    .blogs{
+        width: 90%;
+    }
+
+    .blog{  
+        grid-template-columns: repeat(1,1fr);
+        width:90%;
+        margin-bottom: 30px;
+        place-items: center;
+    }
+    .single-blog{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-left: 30px;
     }
   
 }
