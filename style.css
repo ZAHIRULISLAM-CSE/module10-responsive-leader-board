@@ -5,6 +5,7 @@
 }
 body{
    background-color: #F3F1FF;
+   margin-bottom: 30px;
 }
 /* Navigation Bar Css */
 .navigation{
@@ -45,6 +46,7 @@ a{
     display: flex;
     align-items:center;
     flex-direction: column;
+    margin-bottom: 30px;
    
 }
 .top-p{
@@ -110,7 +112,53 @@ a{
 .blog-auhor{
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+      line-height: 24px;
+}
+/* Course Details Css */
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer-width{
+    width: 870px;
+    background-color: #FFFFFF;
+}
+.course-details img{
+    width: 224.38px;
+    height: 105.51px;
+}
+.course-title{
+    font-weight: 500;
+    font-size: 20.0336px;
+    margin-bottom: 7px;
+}
+.course-writer{
+    font-weight: 400;
+    font-size: 14.6913px;
+    margin-bottom: 20px;
+}
+.course-details{
+    margin-left: 33px;
+    margin-bottom: 22px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.footer-title{
+    margin-top: 23px;
+    margin-bottom: 11px;
+    margin-left: 33px;
+}
+.footer-rating{
+    display: flex;
+    gap:20px;
+}
+.fa-edit{
+    color: yellow;
+}
+.clock{
+    background-color: #FF4A60;
+    border-radius: 5px;
 }
 
 /* Media Queries */
