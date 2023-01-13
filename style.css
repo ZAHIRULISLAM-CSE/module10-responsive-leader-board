@@ -16,6 +16,7 @@ body{
     background: #562EFF;
     align-items: center;
     margin-bottom: 36px;
+
 }
 .nav-icon{
     display: flex;
@@ -69,6 +70,9 @@ a{
     align-items: center;
     gap:10px
 }
+.hr-line{
+    margin-bottom: 20px;
+}
 
 /* Media Queries */
 @media screen and (max-width:300px) {
@@ -90,7 +94,7 @@ a{
 @media screen and (min-width:301px) and (max-width:576px) {
     .navigation,.nav-icon,.nav-menu{
         justify-content: flex-start;
-        gap:20px;
+        gap:15px;
     }
     .player{
         grid-template-columns: repeat(2,1fr);
