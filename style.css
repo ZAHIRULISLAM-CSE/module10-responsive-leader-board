@@ -142,7 +142,6 @@ a{
     margin-bottom: 22px;
     display:grid;
     grid-template-columns: repeat(3,1fr);
-
 }
 .footer-title{
     margin-top: 23px;
@@ -200,6 +199,13 @@ a{
         width: 180px;
         height: 120px;
     }
+    .course-details{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-width{
+        width:90%;
+        background-color: #FFFFFF;
+    }
   
 }
 
@@ -212,7 +218,7 @@ a{
         width:90%;
     }
     .player{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
     .navigation{
         margin-bottom:20px;
@@ -234,6 +240,19 @@ a{
         flex-direction: column;
         gap: 16px;
         margin-left: 30px;
+    }
+    .course-details{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-width{
+        width:90%;
+        background-color: #FFFFFF;
+    }
+    .course-writer{
+        margin-bottom: 10px;
+    }
+    .footer-rating{
+        margin-bottom: 30px;
     }
     
 
@@ -266,6 +285,19 @@ a{
         flex-direction: column;
         gap: 16px;
         margin-left: 30px;
+    }
+    .course-details{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-width{
+        width:90%;
+        background-color: #FFFFFF;
+    }
+    .course-writer{
+        margin-bottom: 10px;
+    }
+    .footer-rating{
+        margin-bottom: 30px;
     }
 }
 @media screen and (min-width:521px) and (max-width:576px) {
@@ -301,6 +333,20 @@ a{
         gap: 16px;
         margin-left: 30px;
     }
+    .course-details{
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+    }
+    .footer-width{
+        width:90%;
+        background-color: #FFFFFF;
+    }
+    .course-writer{
+        margin-bottom: 10px;
+    }
+    .footer-rating{
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (min-width:577px)  and (max-width:930px){
@@ -330,6 +376,20 @@ a{
         flex-direction: column;
         gap: 16px;
         margin-left: 30px;
+    }
+    .course-details{
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+    }
+    .footer-width{
+        width:90%;
+        background-color: #FFFFFF;
+    }
+    .course-writer{
+        margin-bottom: 10px;
+    }
+    .footer-rating{
+        margin-bottom: 30px;
     }
   
 }
